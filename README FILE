@@ -1,0 +1,46 @@
+# Rental Management System
+
+A Windows Forms desktop application (C#, .NET, SQL Server LocalDB) for managing
+tenants, properties, rentals and payments. Built with the MVC pattern.
+
+## Features
+- Login with hashed passwords
+- CRUD for Tenants, Properties, Rentals and Payments
+- Dropdowns linked to database tables, input validation, delete confirmation
+
+## Architecture (MVC)
+- **Models/**: Tenant, Property, Rental, Payment, User
+- **Views/**: LoginForm, MainForm, TenantForm, PropertyForm, RentalForm, PaymentForm
+- **Controllers/**: AuthController, TenantController, PropertyController, RentalController, PaymentController
+- **Data/**: DatabaseConnection
+
+## Setup
+1. Install Visual Studio with the .NET desktop workload and SQL Server LocalDB.
+2. Open SQL Server Management Studio, connect to `(localdb)\MSSQLLocalDB`.
+3. Run `database.sql` to create `RentalManagementDB`.
+4. Open the solution and press F5.
+
+## Login
+Email: `admin@rental.com`  Password: `admin123`
+
+## Screenshots
+
+### Login Screen
+![Login Screen](screenshots of form/login form.png)
+
+### Dashboard
+![Dashboard](screenshots of form/payment form.png)
+
+### Property Management
+![Properties](screenshots of form/property form.png)
+
+### Tenant Management
+![Tenants](screenshots of form/Rental form.png)
+
+### Rental Management
+![Rentals](screenshots of form/rentalmanagement sysment.png)
+
+### Payment Management
+![Payments](screenshots of form/Tenant form.png)
+
+
